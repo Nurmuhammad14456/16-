@@ -1,0 +1,58 @@
+.text {
+  margin-top: 50px;
+  .text__wapper {
+    h1 {
+      font-size: 38px;
+      font-weight: 400;
+      color: #121722;
+      text-align: center;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      color: #121722b2;
+      text-align: center;
+      margin-top: 17px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .text {
+    .text__wapper {
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .text {
+    .text__wapper {
+      h1 {
+        font-size: 25px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .text {
+    padding: 20px;
+    .text__wapper {
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.section__text {
+  margin-top: 80px;
+  .texxt {
+    padding: 10px;
+    h1 {
+      font-size: 36px;
+      line-height: 42px;
+      color: #121722;
+      text-align: center;
+    }
+    P {
+      font-size: 21px;
+      line-height: 32px;
+      color: #121722b2;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .section__text {
+    margin-top: 80px;
+    .texxt {
+      h1 {
+        font-size: 20px;
+        line-height: 32px;
+        color: #121722;
+        text-align: center;
+      }
+      P {
+        font-size: 14px;
+        line-height: 22px;
+        color: #121722b2;
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+.navigation {
+  margin-top: 100px;
+  .navigation__wapper {
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .text1 {
+      h3 {
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 38px;
+        color: #121722;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 400;
+        color: #121722;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .img {
+    img {
+      width: 750px;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .navigation {
+    .navigation__wapper {
+      .text1 {
+        h3 {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+      .img {
+        img {
+          width: 650px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .navigation {
+    .navigation__wapper {
+      .text1 {
+        h3 {
+          font-size: 28px;
+          margin-bottom: 5px;
+        }
+
+        p {
+          font-size: 18px;
+          margin-top: 5px;
+        }
+      }
+      .img {
+        img {
+          width: 550px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .navigation {
+    .navigation__wapper {
+      .text1 {
+        h3 {
+          font-size: 24px;
+          margin-bottom: 5px;
+        }
+
+        p {
+          font-size: 16px;
+          margin-top: 5px;
+        }
+      }
+      .img {
+        img {
+          width: 450px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .navigation {
+    margin-top: 50px;
+    .navigation__wapper {
+      display: flex;
+      flex-direction: column;
+      .text1 {
+        h3 {
+          font-size: 30px;
+          text-align: center;
+        }
+
+        p {
+          font-size: 18px;
+          text-align: center;
+        }
+        .rasm {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          margin: 0 auto;
+        }
+      }
+      .img {
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .navigation {
+    margin-top: 20px;
+    .navigation__wapper {
+      display: flex;
+      flex-direction: column;
+      .text1 {
+        h3 {
+          font-size: 20px;
+          text-align: center;
+        }
+
+        p {
+          font-size: 16px;
+          text-align: center;
+        }
+      }
+      .img {
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

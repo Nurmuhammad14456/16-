@@ -1,0 +1,157 @@
+.librariy {
+  margin-top: 50px;
+  .librariy__wapper {
+    padding: 10px;
+    background: #4058ff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .text {
+      h3 {
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 38px;
+        color: #e8f1ff;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 400;
+        color: #e8f1ff;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .img {
+    img {
+      width: 750px;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .librariy {
+    .librariy__wapper {
+      .text {
+        h3 {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+      .img {
+        img {
+          width: 650px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .librariy {
+    .librariy__wapper {
+      .text {
+        h3 {
+          font-size: 28px;
+          margin-bottom: 5px;
+        }
+
+        p {
+          font-size: 18px;
+          margin-top: 5px;
+        }
+      }
+      .img {
+        img {
+          width: 550px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .librariy {
+    .librariy__wapper {
+      .text {
+        h3 {
+          font-size: 24px;
+          margin-bottom: 5px;
+        }
+
+        p {
+          font-size: 16px;
+          margin-top: 5px;
+        }
+      }
+      .img {
+        img {
+          width: 450px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .librariy {
+    margin-top: 50px;
+    .librariy__wapper {
+      display: flex;
+      flex-direction: column-reverse;
+      .text {
+        h3 {
+          font-size: 30px;
+          text-align: center;
+        }
+
+        p {
+          font-size: 18px;
+          text-align: center;
+        }
+        .rasm {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          margin: 0 auto;
+        }
+      }
+      .img {
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .librariy {
+    margin-top: 20px;
+    .librariy__wapper {
+      display: flex;
+      flex-direction: column-reverse;
+      .text {
+        h3 {
+          font-size: 20px;
+          text-align: center;
+        }
+
+        p {
+          font-size: 16px;
+          text-align: center;
+        }
+      }
+      .img {
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
